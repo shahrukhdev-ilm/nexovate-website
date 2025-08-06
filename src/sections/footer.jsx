@@ -12,7 +12,7 @@ export const Footer = () => {
     <div className='w-full h-auto flex lg:flex-row flex-col items-start justify-center gap-[60px]'>
       <div className='lg:w-[40%] w-full flex flex-col justify-center items-start gap-[25px]'>
         <div className='text-themegreen font-bold text-left lg:text-4x1 text-3xl uppercase'>
-          NEXOVATE <span className='text-white'></span>
+          SHAHRUKH <span className='text-white'></span>
 
 
    </div>
@@ -53,7 +53,7 @@ export const Footer = () => {
         
    </div>
    <div className='w-full h-auto flex lg:flex-row flex-col items-center justify-between border-t-2 border-gray-700 pt-6 gap-[10px]'>
-    <p className='text-gray-300 text-md font-poppins text-center'>Copyrights © 2023 Nexovate. All rights reserved.</p>
+    <p className='text-gray-300 text-md font-poppins text-center'>Copyrights © 2023 Shahrukh. All rights reserved.</p>
     <ul className='text-gray-300 flex justify-center items-end gap-6'>
       <li>Terms of Service</li>
       <li>Privacy Policy</li>
