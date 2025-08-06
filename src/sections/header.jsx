@@ -34,7 +34,7 @@ return (
   <header className='bg-black py-4 lg:px-[80px] px-7 fixed top-0 left-0 w-full z-50'>
     <div className='flex justify-between items-center'>
       <div className='text-themegreen font-bold text-left lg:text-4x1 text-3x1 uppercase'>
-        NEXOVATE <span className='text-white'></span>
+        SHAHRUKH <span className='text-white'></span>
 
         </div>
         <button className='text-white text-2xl md:hidden' onClick={() => setMenuOpen(!menuOpen)}>
