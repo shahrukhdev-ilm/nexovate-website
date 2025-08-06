@@ -14,7 +14,7 @@ export const Hero = () => {
         });
     }, []);
     return (
-        <div id='hero' className=' w-full h-auto flex lg:flex-row flex-col justify-between items-center lg:px-[80px] px-[20px] lg:pt-[150px] pt-[120px] lg:pb-[80px] pb[60px] lg:gap-[60px] gap-[40px] bg-cover bg-cover bg-center' style={{ backgroundImage: `url(${backgroundimage})` }}>
+        <div id='home' className=' w-full h-auto flex lg:flex-row flex-col justify-between items-center lg:px-[80px] px-[20px] lg:pt-[150px] pt-[120px] lg:pb-[80px] pb[60px] lg:gap-[60px] gap-[40px] bg-cover bg-cover bg-center' style={{ backgroundImage: `url(${backgroundimage})` }}>
             <div className='lg:w-1/2 w-full flex flex-col gap-[20px] items-start justify-content'>
                 <h1 data-aos="zoom in" data-aos-delay="50" className='text-themegreen uppercase text-sm font-poppins'>Seamless IT services</h1>
             <h1 data-aos="zoom in" data-aos-delay="100" className='text-white lg:text-[70px] text-[40px] capitalize font-poppins'>Empowering Your Digital Journey</h1>
