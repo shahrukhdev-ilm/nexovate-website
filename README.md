@@ -1,6 +1,6 @@
 ![image alt](https://github.com/shahrukhdev-ilm/nexovate-website/blob/d9041255d6fd7e85b9f79f3dd64be06a04627189/Screenshot%202025-08-06%20145550.png)
 ![image alt](https://github.com/shahrukhdev-ilm/nexovate-website/blob/db4fa009660695b061ce8ed38db7d5cb1ac16285/Screenshot%202025-08-06%20145744.png)
-![image alt](https://github.com/shahrukhdev-ilm/nexovate-website/blob/2a2a92e522599f28184114358f3cd67f6f010092/Screenshot%202025-08-06%20145818.png)
+![image alt](https://github.com/shahrukhdev-ilm/nexovate-website/blob/67ddede9fb3056bec3dfb037aebe13ccc2b4176e/Screenshot%202025-08-06%20152517.png)
 ![image alt](https://github.com/shahrukhdev-ilm/nexovate-website/blob/007dcc08bca5240a271149abb2d197d2df2ab176/Screenshot%202025-08-06%20145840.png)
 ![image alt](https://github.com/shahrukhdev-ilm/nexovate-website/blob/a29ba920db24ff4399d43a2ab6b4bcd542f8dd01/Screenshot%202025-08-06%20145856.png)
-![image](https://github.com/shahrukhdev-ilm/nexovate-website/blob/c90fc0458cda4770a05f8c1cfa7911d607dabc60/Screenshot%202025-08-06%20145909.png)
+![image alt](https://github.com/shahrukhdev-ilm/nexovate-website/blob/c90fc0458cda4770a05f8c1cfa7911d607dabc60/Screenshot%202025-08-06%20145909.png)
