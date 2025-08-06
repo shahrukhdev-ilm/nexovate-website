@@ -10,14 +10,13 @@ export const Header = () => {
 
   const [menuOpen, setMenuOpen] = React.useState(false);
   const menulinks = [
-    { name: 'Home', link: 'home' },
-    { name: 'About', link: 'about' },
-    { name: 'Services', link: 'services' },
-    { name: 'Projects', link: 'projects' },
-    { name: 'Testimonials', link: 'testimonials' },
-    { name: 'Contact', link: 'contact' }
-    { name: 'OUR LOCATION', link: 'location', id: 'location' } 
-
+    { name: 'Home', link: 'home', id: 'home' },
+    { name: 'About', link: 'about', id: 'about' },
+    { name: 'Services', link: 'services', id: 'services' },
+    { name: 'Projects', link: 'projects', id: 'projects' },
+    { name: 'Testimonials', link: 'testimonials', id: 'testimonials' },
+    { name: 'Contact', link: 'contact', id: 'contact' },
+    { name: 'OUR LOCATION', link: 'location', id: 'location' } // <-- Add this line
   ];
   useEffect(() => {
     if(menuOpen) {
@@ -45,13 +44,18 @@ return (
           <ul className='flex space-x-10 text-lg font-poppins text-white'>
             {menulinks.map((link, index) => (
               <li key={link.link}>
-                <Link to={link.link} smooth={true} duration={500} className={`cursor-pointer ${link.name === 'Home' ? 'text-themegreen' : 'hover:text-themegreen transition-colors'}`}>
+                <Link
+                  to={link.link}
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  activeClass="text-themegreen"
+                  className="cursor-pointer hover:text-themegreen transition-colors"
+                >
                   {link.name}
                 </Link>
-
               </li>
             ))}
-
           </ul>
         </nav>
         </div>
@@ -62,7 +66,15 @@ return (
           <ul className='flex flex-col space-y-6 text-2xl text-center font-poppins'>
             {menulinks.map((link, index) => (
               <li key={link.link}>
-                <Link to={link.link} smooth={true} duration={500} className={`cursor-pointer ${link.name === 'Home' ? 'text-themegreen' : 'hover:text-themegreen transition-colors font-poppins '}`} onClick={() => setMenuOpen(false)}>
+                <Link
+                  to={link.link}
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  activeClass="text-themegreen"
+                  className="cursor-pointer hover:text-themegreen transition-colors font-poppins"
+                  onClick={() => setMenuOpen(false)}
+                >
                   {link.name}
                 </Link>
               </li>
