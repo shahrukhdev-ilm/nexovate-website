@@ -16,6 +16,7 @@ export const Header = () => {
     { name: 'Projects', link: 'projects' },
     { name: 'Testimonials', link: 'testimonials' },
     { name: 'Contact', link: 'contact' }
+    { name: 'OUR LOCATION', link: 'location', id: 'location' } 
 
   ];
   useEffect(() => {
