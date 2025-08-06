@@ -34,15 +34,15 @@ export const About = () => {
           className='lg:w-[60%] w-full flex flex-col items-start justify-between gap-[60px] lg:ml-[40px]'
         >
           <div className='flex flex-col items-start justify-center gap-3'>
-            <h1 className='text-black text-[35px] capitalize leading-[1.2em] font-poppins'>Expertise</h1>
+            <h1 className='text-black text-[50px] capitalize leading-[1.2em] font-poppins'>Expertise</h1>
             <p className='text-grey-500 text-md font-poppins'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Sed viverra, enim in facilisis facilisis, enim erat commodo est, a tincidunt nisi ligula non quam.</p>
           </div>
           <div className='flex flex-col items-start justify-center gap-3'>
-            <h1 className='text-black text-[35px] capitalize leading-[1.2em] font-poppins'>Expertise</h1>
+            <h1 className='text-black text-[50px] capitalize leading-[1.2em] font-poppins'>Expertise</h1>
             <p className='text-grey-500 text-md font-poppins'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Sed viverra, enim in facilisis facilisis, enim erat commodo est, a tincidunt nisi ligula non quam.</p>
           </div>
           <div className='flex flex-col items-start justify-center gap-3'>
-            <h1 className='text-black text-[35px] capitalize leading-[1.2em] font-poppins'>Expertise</h1>
+            <h1 className='text-black text-[50px] capitalize leading-[1.2em] font-poppins'>Expertise</h1>
             <p className='text-grey-500 text-md font-poppins'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Sed viverra, enim in facilisis facilisis, enim erat commodo est, a tincidunt nisi ligula non quam.</p>
           </div>
         </div>
